@@ -10,7 +10,6 @@ import {AppSettings} from './AppSettings'
   providedIn: 'root'
 })
 export class AppSettingsService {
-s
   getSettings(): Observable<AppSettings> {
     let settings = new AppSettings();
     return Observable.of<AppSettings>(settings);
